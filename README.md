@@ -2,9 +2,9 @@
 
 Submitted by: **Amy Wong**
 
-This web app: **insert description**
+This web app: **Do you love dogs? Here's a website that randomizes a dog photo based on the attributes you choose to keep. Enjoy! :)**
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 ## Required Features
 
@@ -15,11 +15,11 @@ The following **required** functionality is completed:
 - [x] **API calls appear random to the user**
 - [x] **At least one image is displayed per API call**
 - [x] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
-- [ ] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
 
 The following **optional** features are implemented:
 
-- [ ] Multiple types of attributes can be added to the ban list
+- [x] Multiple types of attributes can be added to the ban list
 - [ ] Users can see a stored history of their previously viewed items from their session
 
 The following **additional** features are implemented:

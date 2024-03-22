@@ -5,38 +5,119 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8a7bb;
+  color: black;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2, h5 {
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.card {
-  padding: 2em;
+.img-display {
+  max-width: 500px;
+  margin: 20px auto;
 }
 
-.read-the-docs {
-  color: #888;
+.img-display img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+
+.button {
+  display: block;
+  background-color: #f99dd3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.button:hover {
+  background-color: #99eff4;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.list button {
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.dog-content, .banned-list {
+  flex: 1;
+}
+
+.dog-content {
+  margin-right: 20px;
+}
+
+.banned-list {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.banned-list h3 {
+  margin-top: 0;
+}
+
+.banned-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.banned-list li {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  list-style-type: none;
+  display: flex; /* Use Flexbox for layout */
+  align-items: center; /* Vertically center aligns items */
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.attribute-item {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+.banned-list button {
+  margin-left: 10px;
 }
