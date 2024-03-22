@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/neThEfj.gif' title='Video Walkthrough' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICECap
@@ -41,7 +41,9 @@ GIF created with LICECap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This project is probably by far the most difficult I have done so far. It took me a while to find a public API that I want
+to use and I had to switch the original API to the Dog API because the documentation wasn't clear. With the code portion, it
+wasn't too bad and I used ChatGPT to fill in the gaps of the code that I forgot how to write.
 
 ## License
 
